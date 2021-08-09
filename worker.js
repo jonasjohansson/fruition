@@ -184,33 +184,13 @@ class HeadRewriter {
 			);
 		}
 		element.append(
-			`<style>
-            ::-webkit-scrollbar,
-            div.notion-topbar,
-            div.notion-topbar-mobile,
-            div.notion-topbar > div > div:nth-child(3),
-            div.notion-topbar > div > div:nth-child(4),
-            div.notion-topbar > div > div:nth-child(5),
-            div.notion-topbar > div > div:nth-child(6),
-            div.notion-topbar-mobile > div:nth-child(3),
-            div.notion-topbar-mobile > div:nth-child(4) {
-                display: none !important;
-            }
-            div.notion-topbar > div > div:nth-child(1n).toggle-mode,
-            div.notion-topbar-mobile > div:nth-child(1n).toggle-mode {
-                display: block !important;
-            }
-            </style>`,
+			`<link rel="stylesheet" href="https://jonasjohansson.github.io/fruition/style.css"></link>`,
 			{
 				html: true,
 			}
 		);
 		element.append(
-			`<script>
-            // let matched = window.matchMedia('(prefers-color-scheme: dark)').matches;
-            document.body.classList.add('dark');
-            __console.environment.ThemeStore.setState({ mode: 'dark' });
-            </script>`,
+			`<script src="https://jonasjohansson.github.io/fruition/script.js.css"></script>`,
 			{
 				html: true,
 			}
