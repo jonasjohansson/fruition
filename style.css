@@ -1,0 +1,24 @@
+::-webkit-scrollbar,
+div.notion-topbar,
+div.notion-topbar-mobile,
+div.notion-topbar > div > div:nth-child(3),
+div.notion-topbar > div > div:nth-child(4),
+div.notion-topbar > div > div:nth-child(5),
+div.notion-topbar > div > div:nth-child(6),
+div.notion-topbar-mobile > div:nth-child(3),
+div.notion-topbar-mobile > div:nth-child(4) {
+	display: none !important;
+}
+div.notion-topbar > div > div:nth-child(1n).toggle-mode,
+div.notion-topbar-mobile > div:nth-child(1n).toggle-mode {
+	display: block !important;
+}
+/* * {
+	font-family: sans-serif !important;
+}
+[class~='header'] {
+	font-family: serif !important;
+}
+.notion-page-content {
+	font-size: 20px !important;
+} */
