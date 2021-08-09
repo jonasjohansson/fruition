@@ -184,13 +184,8 @@ class HeadRewriter {
 			);
 		}
 		element.append(
-			`<link rel="stylesheet" href="https://jonasjohansson.github.io/fruition/style.css"></link>`,
-			{
-				html: true,
-			}
-		);
-		element.append(
-			`<script src="https://jonasjohansson.github.io/fruition/script.js.css" defer></script>`,
+			`<link rel="stylesheet" href="https://jonasjohansson.github.io/fruition/style.css"></link>
+            <script src="https://jonasjohansson.github.io/fruition/script.js" defer></script>`,
 			{
 				html: true,
 			}
