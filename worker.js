@@ -190,7 +190,7 @@ class HeadRewriter {
 			}
 		);
 		element.append(
-			`<script src="https://jonasjohansson.github.io/fruition/script.js.css"></script>`,
+			`<script src="https://jonasjohansson.github.io/fruition/script.js.css" defer></script>`,
 			{
 				html: true,
 			}
