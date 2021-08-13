@@ -1,7 +1,7 @@
 /* CONFIGURATION STARTS HERE */
 
 /* Step 1: enter your domain name like fruitionsite.com */
-const MY_DOMAIN = 'cctvsthlm.se';
+const MY_DOMAIN = 'visualia.se';
 
 /*
  * Step 2: enter your URL slug to page ID mapping
@@ -9,11 +9,11 @@ const MY_DOMAIN = 'cctvsthlm.se';
  * The value on the right is the Notion page ID
  */
 const SLUG_TO_PAGE = {
-	'': 'f94ed6d729754e209b8221991ba7cfc0',
+	'': 'a1a4d0486c8244d7bbfddd7f2db296dc',
 };
 
 /* Step 3: enter your page title and description for SEO purposes */
-const PAGE_TITLE = 'CCTV Sthlm';
+const PAGE_TITLE = 'Visualia';
 const PAGE_DESCRIPTION = '';
 
 /* Step 4: enter a Google Font name, you can choose from https://fonts.google.com */
