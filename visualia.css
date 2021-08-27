@@ -3,5 +3,5 @@ img,
 figure,
 video,
 *[role='image'] {
-	filter: invert(100%) !important;
+	/* filter: invert(100%) !important; */
 }
