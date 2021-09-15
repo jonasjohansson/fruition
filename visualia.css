@@ -2,6 +2,11 @@
 	font-size: 20px !important;
 }
 
+.notion-image-block img {
+	border-radius: 1rem;
+	overflow: hidden;
+}
+
 @media (prefers-color-scheme: dark) {
 	body,
 	img,
