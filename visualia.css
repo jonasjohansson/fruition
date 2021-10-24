@@ -18,6 +18,6 @@ div[data-block-id='a1a4d048-6c82-44d7-bbfd-dd7f2db296dc'] {
 	video,
 	div.notion-record-icon,
 	*[role='image'] {
-		filter: invert(90%) !important;
+		filter: invert(95%) !important;
 	}
 }
