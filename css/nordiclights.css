@@ -2,7 +2,7 @@
 
 html {
 	background-image: linear-gradient(#0d275a, #090f22);
-	color: white;
+	color: rgba(255, 255, 255, 0.9);
 }
 
 div,
