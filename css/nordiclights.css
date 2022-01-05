@@ -6,10 +6,7 @@ html {
 
 div {
 	background: transparent !important;
-}
-
-.notion-light-theme {
-	color: transparent !important;
+	color: inherit !important;
 }
 
 .notion-page-content {
