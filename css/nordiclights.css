@@ -8,6 +8,7 @@ html {
 div {
 	background: transparent !important;
 	color: inherit !important;
+	border-color: inherit;
 }
 
 .notion-page-content {
