@@ -5,6 +5,9 @@ document.addEventListener('DOMContentLoaded', function () {
 })
 console.log('Loaded from www.jonasjohansson.se')
 
-for (let elem of document.querySelectorAll('div')) {
-	elem.style.removeProperty('background')
-}
+setTimeout(function () {
+	for (let elem of document.querySelectorAll('div')) {
+		elem.style.removeProperty('background')
+		elem.style.addproperty('background', 'transparent')
+	}
+}, 100)
