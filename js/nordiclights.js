@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	// __console.environment.ThemeStore.setState({ mode: 'dark' });
 	for (let elem of document.querySelectorAll('div')) {
 		elem.style.removeProperty('background')
-		elem.style.addproperty('background', 'transparent')
+		elem.style.setProperty('background', 'transparent')
 	}
 })
 console.log('Loaded from www.jonasjohansson.se')
