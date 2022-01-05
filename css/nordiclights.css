@@ -2,11 +2,9 @@
 
 html {
 	background-image: linear-gradient(#0d275a, #090f22);
-	/* color: rgba(255, 255, 255, 0.9); */
-	/* background-color: white; */
-	filter: invert(1);
 }
 
+body,
 div {
 	background: transparent !important;
 }
