@@ -5,7 +5,7 @@ html {
 }
 
 div {
-	background-color: transparent !important;
+	background: transparent !important;
 }
 
 .notion-light-theme {
