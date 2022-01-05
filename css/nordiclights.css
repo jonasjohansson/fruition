@@ -1,5 +1,9 @@
 @import url('style.css');
 
+html {
+	background-image: linear-gradient(#0d275a, #090f22);
+}
+
 .notion-page-content {
 	font-size: 18px !important;
 }
