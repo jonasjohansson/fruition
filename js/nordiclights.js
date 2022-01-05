@@ -2,12 +2,9 @@ document.addEventListener('DOMContentLoaded', function () {
 	// let matched = window.matchMedia('(prefers-color-scheme: dark)').matches;
 	// document.body.classList.add('dark');
 	// __console.environment.ThemeStore.setState({ mode: 'dark' });
-})
-console.log('Loaded from www.jonasjohansson.se')
-
-setTimeout(function () {
 	for (let elem of document.querySelectorAll('div')) {
 		elem.style.removeProperty('background')
 		elem.style.addproperty('background', 'transparent')
 	}
-}, 100)
+})
+console.log('Loaded from www.jonasjohansson.se')
