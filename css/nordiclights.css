@@ -1,6 +1,6 @@
 @import url('style.css');
 
-html {
+/* html {
 	background-image: linear-gradient(#0d275a, #090f22);
 }
 
@@ -13,7 +13,7 @@ div,
 a {
 	color: inherit !important;
 	border-color: inherit;
-}
+} */
 
 .notion-page-content {
 	font-size: 18px !important;
