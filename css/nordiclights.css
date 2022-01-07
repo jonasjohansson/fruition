@@ -2,6 +2,7 @@
 
 body:before {
 	content: '';
+	display: block;
 	position: absolute;
 	width: 50vw;
 	height: 50vh;
