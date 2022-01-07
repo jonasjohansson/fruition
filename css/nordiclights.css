@@ -9,7 +9,7 @@
 	top: -50%;
 	right: -50%;
 	pointer-events: none;
-	background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 50%);
+	background: radial-gradient(circle, rgba(0, 0, 0, 0.8) 0%, rgba(255, 255, 255, 0) 50%);
 	z-index: 9999;
 }
 
