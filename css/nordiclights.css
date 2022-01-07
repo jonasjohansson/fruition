@@ -1,6 +1,6 @@
 @import url('style.css');
 
-body:before {
+.notion-app-inner:before {
 	content: '';
 	display: block;
 	position: absolute;
