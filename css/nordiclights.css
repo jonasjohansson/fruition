@@ -1,6 +1,6 @@
 @import url('style.css');
 
-.notion-app-inner:before {
+/* .notion-app-inner:before {
 	content: '';
 	display: block;
 	position: absolute;
@@ -11,7 +11,7 @@
 	pointer-events: none;
 	background: radial-gradient(circle, rgba(0, 0, 0, 0.8) 0%, rgba(255, 255, 255, 0) 50%);
 	z-index: 9999;
-}
+} */
 
 /* html {
 	background-image: linear-gradient(#0d275a, #090f22);
