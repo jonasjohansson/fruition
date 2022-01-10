@@ -24,7 +24,7 @@ function update() {
 			video.setAttribute('controls', false)
 			video.play()
 		})
-	}, 1000)
+	}, 500)
 }
 
 window.onload = update
