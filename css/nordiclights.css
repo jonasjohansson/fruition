@@ -49,14 +49,17 @@ div[data-block-id='a1a4d048-6c82-44d7-bbfd-dd7f2db296dc'] {
 } */
 
 @media (prefers-color-scheme: dark) {
-	body,
+	body {
+		-webkit-filter: invert(95%) !important;
+		filter: invert(95%) !important;
+	}
+	div.notion-record-icon,
 	img,
 	figure,
 	video,
-	div.notion-record-icon,
 	*[role='image'] {
-		-webkit-filter: invert(95%) !important;
-		filter: invert(95%) !important;
+		-webkit-filter: invert(100%) !important;
+		filter: invert(100%) !important;
 	}
 	::selection {
 		user-select: none;
