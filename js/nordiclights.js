@@ -28,7 +28,7 @@ function playVideo() {
 	video.play()
 	// })
 
-	// window.removeEventListener('click', playVideo)
+	window.removeEventListener('click', playVideo)
 }
 
 window.addEventListener('click', playVideo)
