@@ -17,22 +17,14 @@ function update() {
 				}
 			}
 		}
+		document.querySelectorAll('video').forEach((video) => {
+			video.setAttribute('playsinline', '')
+			video.setAttribute('muted', true)
+			video.setAttribute('loop', true)
+			video.setAttribute('controls', false)
+			video.play()
+		})
 	}, 1000)
 }
 
-function playVideo() {
-	document.querySelectorAll('video').forEach((video) => {
-		video.setAttribute('playsinline', '')
-		video.setAttribute('muted', true)
-		video.setAttribute('loop', true)
-		video.setAttribute('controls', false)
-		video.play()
-	})
-
-	window.removeEventListener('click', playVideo)
-}
-
-window.addEventListener('click', playVideo)
-
 window.onload = update
-window.onload = playVideo
