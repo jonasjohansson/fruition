@@ -21,12 +21,12 @@ function update() {
 }
 
 function playVideo() {
-	// document.querySelectorAll('video').forEach((video) => {
-	video.setAttribute('playsinline', '')
-	video.setAttribute('muted', '')
-	video.setAttribute('loop', '')
-	video.play()
-	// })
+	document.querySelectorAll('video').forEach((video) => {
+		video.setAttribute('playsinline', '')
+		video.setAttribute('muted', '')
+		video.setAttribute('loop', '')
+		video.play()
+	})
 
 	window.removeEventListener('click', playVideo)
 }
