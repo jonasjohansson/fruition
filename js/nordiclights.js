@@ -23,8 +23,9 @@ function update() {
 function playVideo() {
 	document.querySelectorAll('video').forEach((video) => {
 		video.setAttribute('playsinline', '')
-		video.setAttribute('muted', '')
-		video.setAttribute('loop', '')
+		video.setAttribute('muted', true)
+		video.setAttribute('loop', true)
+		video.setAttribute('controls', false)
 		video.play()
 	})
 
