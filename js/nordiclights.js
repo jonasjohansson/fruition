@@ -21,14 +21,17 @@ function update() {
 }
 
 function playVideo() {
-	document.querySelectorAll('video').forEach((video) => {
-		video.loop = true
-		video.play()
-	})
+	// document.querySelectorAll('video').forEach((video) => {
+	video.setAttribute('playsinline', '')
+	video.setAttribute('muted', '')
+	video.setAttribute('loop', '')
+	video.play()
+	// })
 
-	window.removeEventListener('click', playVideo)
+	// window.removeEventListener('click', playVideo)
 }
 
 window.addEventListener('click', playVideo)
 
 window.onload = update
+window.onload = playVideo
