@@ -24,7 +24,14 @@ function update() {
 			video.setAttribute('controls', false)
 			video.play()
 		})
-	}, 500)
+		var link = document.querySelector("link[rel~='icon']")
+		if (!link) {
+			link = document.createElement('link')
+			link.rel = 'icon'
+			document.getElementsByTagName('head')[0].appendChild(link)
+		}
+		link.href = 'favicon.ico'
+	}, 1000)
 }
 
 window.onload = update
