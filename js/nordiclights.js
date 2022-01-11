@@ -24,13 +24,8 @@ function update() {
 			video.setAttribute('controls', false)
 			video.play()
 		})
-		var link = document.querySelector("link[rel~='icon']")
-		if (!link) {
-			link = document.createElement('link')
-			link.rel = 'icon'
-			document.getElementsByTagName('head')[0].appendChild(link)
-		}
-		link.href = 'favicon.ico'
+		document.querySelector("link[rel='shortcut icon']").href = 'https://jonasjohansson.github.io/chorus/favicon.ico'
+		document.querySelector("link[rel='apple-touch-icon']").href = 'https://jonasjohansson.github.io/chorus/favicon.png'
 	}, 1000)
 }
 
