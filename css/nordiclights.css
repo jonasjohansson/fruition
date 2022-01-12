@@ -12,6 +12,7 @@ body:before {
 	opacity: 1;
 	will-change: opacity;
 	transition: opacity 500ms ease-in-out;
+	z-index: 999;
 }
 
 body.loaded:before {
