@@ -82,6 +82,7 @@ video {
 	img,
 	figure,
 	video,
+	::selection,
 	*[role='image'] {
 		-webkit-filter: invert(100%) !important;
 		filter: invert(100%) !important;
