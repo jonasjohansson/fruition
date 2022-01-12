@@ -1,5 +1,25 @@
 @import url('style.css');
 
+body:before {
+	content: '';
+	display: block;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 1;
+	will-change: opacity;
+	transition: opacity 500ms ease-in-out;
+}
+
+body.loaded:before {
+	opacity: 0;
+	z-index: -1;
+	pointer-events: none;
+}
+
 /* .notion-app-inner:before {
 	content: '';
 	display: block;
