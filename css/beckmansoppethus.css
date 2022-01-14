@@ -1,1 +1,52 @@
 @import url('style.css');
+
+body:before {
+	content: '';
+	display: block;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 1;
+	will-change: opacity;
+	transition: opacity 500ms ease-in-out 1s;
+	z-index: 999;
+}
+
+body.loaded:before {
+	opacity: 0;
+	pointer-events: none;
+}
+
+.notion-page-content {
+	font-size: 18px !important;
+	padding-bottom: 0 !important;
+}
+
+.notion-image-block img {
+	border-radius: 1rem;
+	overflow: hidden;
+}
+
+video {
+	border-radius: 0.5rem;
+}
+
+body {
+	-webkit-filter: invert(85%) !important;
+	filter: invert(85%) !important;
+}
+div.notion-record-icon,
+img,
+figure,
+video,
+::selection,
+*[role='image'] {
+	-webkit-filter: invert(100%) !important;
+	filter: invert(100%) !important;
+}
+::selection {
+	user-select: none;
+}

@@ -74,21 +74,19 @@ video {
 	filter: invert(100%) !important;
 } */
 
-@media (prefers-color-scheme: dark) {
-	body {
-		-webkit-filter: invert(85%) !important;
-		filter: invert(85%) !important;
-	}
-	div.notion-record-icon,
-	img,
-	figure,
-	video,
-	::selection,
-	*[role='image'] {
-		-webkit-filter: invert(100%) !important;
-		filter: invert(100%) !important;
-	}
-	::selection {
-		user-select: none;
-	}
+body {
+	-webkit-filter: invert(85%) !important;
+	filter: invert(85%) !important;
+}
+div.notion-record-icon,
+img,
+figure,
+video,
+::selection,
+*[role='image'] {
+	-webkit-filter: invert(100%) !important;
+	filter: invert(100%) !important;
+}
+::selection {
+	user-select: none;
 }
