@@ -95,18 +95,15 @@ video,
 ::selection {
 	user-select: none;
 } */
-div.notion-selectable.notion-collection_view-block > div {
-	background: var(--color-light) !important;
-}
+
 div.notion-selectable.notion-collection_view-block > div {
 	box-shadow: none !important;
 }
-div.notion-frame {
+div.notion-frame,
+div.notion-scroller.vertical.horizontal > div,
+div.notion-selectable.notion-collection_view-block > div {
 	background-color: var(--color-light) !important;
-} /*Change Background color - Desktop & Mobile*/
-div.notion-scroller.vertical.horizontal > div {
-	background-color: var(--color-light) !important;
-} /*Change Background color - Desktop & Mobile*/
+}
 div.notion-selectable.notion-collection_view_page-block
 	> div
 	> div
