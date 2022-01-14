@@ -35,8 +35,8 @@ video {
 }
 
 body {
-	-webkit-filter: invert(85%) !important;
-	filter: invert(85%) !important;
+	-webkit-filter: invert(95%) !important;
+	filter: invert(95%) !important;
 }
 div.notion-record-icon,
 img,
