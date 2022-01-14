@@ -30,7 +30,8 @@ div.notion-topbar-mobile > div:nth-child(1n).toggle-mode {
 
 div.notion-frame,
 div.notion-scroller.vertical.horizontal > div,
-div.notion-selectable.notion-collection_view-block > div {
+div.notion-selectable.notion-collection_view-block > div,
+div.notion-selectable.notion-page-block.notion-collection-item {
 	background-color: var(--bg, --default-bg) !important;
 }
 div.notion-selectable.notion-collection_view_page-block
