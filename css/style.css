@@ -3,7 +3,7 @@
 	--default-color: black;
 }
 
-* {
+/* * {
 	font-family: sans-serif !important;
 }
 [class~='header'] {
@@ -11,7 +11,7 @@
 }
 .notion-page-content {
 	font-size: 20px !important;
-}
+} */
 
 div.notion-frame,
 div.notion-scroller.vertical.horizontal > div,
@@ -118,4 +118,26 @@ div.notion-selectable.notion-collection_view_page-block
 	border-radius: 3px !important; /*Round Corners */
 	margin-bottom: 12px !important;
 	height: 95% !important; /*decreased height for gallery item*/
+}
+
+/* fade in after window loaded */
+
+body:before {
+	content: '';
+	display: block;
+	background-color: var(--bg, --default-bg);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 1;
+	will-change: opacity;
+	transition: opacity 500ms ease-in-out 1s;
+	z-index: 999;
+}
+
+body.loaded:before {
+	opacity: 0;
+	pointer-events: none;
 }

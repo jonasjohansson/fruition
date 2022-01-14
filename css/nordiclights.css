@@ -3,8 +3,8 @@
 @import url('style.css');
 
 :root {
-	--color-light: white;
-	--color-dark: black;
+	--bg: white;
+	--color: black;
 }
 
 body:before {
@@ -98,17 +98,4 @@ video,
 
 div.notion-selectable.notion-collection_view-block > div {
 	box-shadow: none !important;
-}
-div.notion-frame,
-div.notion-scroller.vertical.horizontal > div,
-div.notion-selectable.notion-collection_view-block > div {
-	background-color: var(--color-light) !important;
-}
-div.notion-selectable.notion-collection_view_page-block
-	> div
-	> div
-	> div.notion-selectable.notion-page-block.notion-collection-item
-	> a {
-	border: 3px solid var(--color-dark) !important; /*Border*/
-	box-shadow: 6px 6px 0px 0.5px var(--color-dark) !important; /*Shadow */
 }
