@@ -30,3 +30,85 @@ div.notion-topbar-mobile {
 div.notion-frame {
 	height: calc(100vh) !important;
 }
+
+div.notion-selectable.notion-collection_view-block
+	> div
+	> div.notion-selectable.notion-collection_view-block
+	> div
+	> div {
+	display: none !important;
+}
+
+/*Remove Search Bar - Desktop - Database (Inline & Linked)*/
+div.notion-selectable.notion-collection_view-block
+	> div
+	> div.notion-selectable.notion-collection_view-block
+	> div
+	> div
+	> div:nth-child(1) {
+	display: none !important;
+}
+
+/*Removes 'Link to original DB (Name)' - Desktop & Mobil - Linked Inline  Database*/
+div.notion-selectable.notion-collection_view-block > div > a > div {
+	display: none !important;
+}
+
+/*Remoeves DB Name - Desktop & Mobile - Inline Database*/
+div.notion-selectable.notion-collection_view-block
+	> div
+	> div.notion-selectable.notion-collection_view-block
+	> div
+	> div:nth-child(1) {
+	display: none !important;
+}
+
+/*Removes open as page - Desktop - Database (Inline & Linked)*/
+div.notion-selectable.notion-collection_view-block
+	> div
+	> div.notion-selectable.notion-collection_view-block
+	> div
+	> div
+	> a {
+	display: none !important;
+}
+
+/*Removes open as page - Mobile - Database (Inline & Linked)*/
+div.notion-selectable.notion-collection_view-block
+	> div
+	> div.notion-selectable.notion-collection_view-block
+	> div
+	> div
+	> div
+	> a {
+	display: none !important;
+}
+
+/*Remove Three-Dot menu - Desktop - Database (Inline & Linked)*/
+div.notion-selectable.notion-collection_view-block
+	> div
+	> div.notion-selectable.notion-collection_view-block
+	> div
+	> div
+	> div:nth-child(3) {
+	display: none !important;
+}
+
+/*Remove Three-Dot menu - Mobile - Database (Inline & Linked)*/
+div.notion-selectable.notion-collection_view-block > div > div > div > div > svg.dots {
+	display: none !important;
+}
+
+/* Removes Top Border - Database (Inline & Linked)*/
+div.notion-selectable.notion-collection_view-block > div > div {
+	border-top: none !important;
+}
+div.notion-selectable.notion-collection_view_page-block
+	> div
+	> div
+	> div.notion-selectable.notion-page-block.notion-collection-item
+	> a {
+	border-radius: 3px !important; /*Round Corners */
+	margin-bottom: 12px !important;
+	height: 95% !important; /*decreased height for gallery item*/
+}
