@@ -3,6 +3,8 @@
 	--default-color: black;
 }
 
+* 
+
 /* * {
 	font-family: sans-serif !important;
 }
@@ -13,6 +15,9 @@
 	font-size: 20px !important;
 } */
 
+.notion-app-inner {
+	color: var(--color, --default-color);
+}
 div.notion-frame,
 div.notion-scroller.vertical.horizontal > div,
 div.notion-selectable.notion-collection_view-block > div,
