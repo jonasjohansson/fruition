@@ -28,11 +28,7 @@ div.notion-selectable.notion-page-block.notion-collection-item > a {
 	background-color: inherit !important;
 }
 
-div.notion-selectable.notion-collection_view_page-block
-	> div
-	> div
-	> div.notion-selectable.notion-page-block.notion-collection-item
-	> a {
+div.notion-selectable.notion-page-block.notion-collection-item > a {
 	border: 3px solid var(--color, --default-color) !important;
 	box-shadow: 6px 6px 0px 0.5px var(--color, --default-color) !important;
 }
