@@ -1,6 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
-	document.querySelector('.intercom-lightweight-app').remove()
-})
+document.addEventListener('DOMContentLoaded', function () {})
 
 console.log('Loaded from www.jonasjohansson.se')
 
