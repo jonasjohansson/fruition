@@ -6,6 +6,7 @@
 	--default-bg: white;
 	--default-color: black;
 	--default-border: DimGray;
+	--default-highlight: DimGray;
 }
 
 /* fade in after window loaded */

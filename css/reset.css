@@ -12,6 +12,9 @@
 .notion-app-inner {
 	color: var(--color, var(--default-color)) !important;
 }
+.notion-focusable[role='button'] {
+	background-color: var(--highlight, var(--default-highlight)) !important;
+}
 
 div.notion-selectable.notion-page-block {
 	color: unset !important;
@@ -146,4 +149,8 @@ div.notion-selectable.notion-callout-block > div > div {
 	user-select: none !important;
 	color: none;
 	background: none;
+}
+
+.notion-record-icon.notranslate.notion-focusable {
+	display: none !important;
 }
