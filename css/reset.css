@@ -13,6 +13,9 @@
 	color: var(--color, --default-color) !important;
 }
 
+div.notion-selectable.notion-page-block {
+	color: unset !important;
+}
 div.notion-frame {
 	background-color: var(--bg, --default-bg) !important;
 }
