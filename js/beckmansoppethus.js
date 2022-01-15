@@ -1,13 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
-	// let matched = window.matchMedia('(prefers-color-scheme: dark)').matches;
-	// document.body.classList.add('dark')
-	// __console.environment.ThemeStore.setState({ mode: 'dark' })
+	document.querySelector('.intercom-lightweight-app').remove()
 })
 
 console.log('Loaded from www.jonasjohansson.se')
 
-function update() {
-	document.body.classList.add('loaded')
-}
+function update() {}
 
 window.onload = update

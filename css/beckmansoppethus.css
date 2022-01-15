@@ -1,6 +1,11 @@
 @import url('style.css');
 
-body:before {
+:root {
+	--bg: black;
+	--color: white;
+}
+
+/* body:before {
 	content: '';
 	display: block;
 	background-color: white;
@@ -18,11 +23,10 @@ body:before {
 body.loaded:before {
 	opacity: 0;
 	pointer-events: none;
-}
+} */
 
 .notion-page-content {
 	font-size: 18px !important;
-	padding-bottom: 0 !important;
 }
 
 .notion-image-block img {
@@ -34,7 +38,7 @@ video {
 	border-radius: 0.5rem;
 }
 
-body {
+/* body {
 	-webkit-filter: invert(95%) !important;
 	filter: invert(95%) !important;
 }
@@ -49,5 +53,5 @@ video,
 	filter: invert(100%) !important;
 }
 ::selection {
-	user-select: none;
+	user-select: none; */
 }
