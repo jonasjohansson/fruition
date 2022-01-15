@@ -6,3 +6,7 @@
 	--bg: black;
 	--color: white;
 }
+
+.notion-record-icon {
+	filter: invert(1);
+}
