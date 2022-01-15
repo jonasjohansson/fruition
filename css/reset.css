@@ -29,8 +29,8 @@ div.notion-selectable.notion-collection_view_page-block
 	> div
 	> div.notion-selectable.notion-page-block.notion-collection-item
 	> a {
-	border: 3px solid var(--color, --default-color) !important; /*Border*/
-	box-shadow: 6px 6px 0px 0.5px var(--color, --default-color) !important; /*Shadow */
+	/* border: 3px solid var(--color, --default-color) !important; Border */
+	/* box-shadow: 6px 6px 0px 0.5px var(--color, --default-color) !important; Shadow */
 }
 
 div.notion-frame {
