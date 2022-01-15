@@ -9,7 +9,7 @@
 
 /* fade in after window loaded */
 
-body:before {
+/* body:before {
 	content: '';
 	display: block;
 	background-color: var(--bg, --default-bg);
@@ -27,8 +27,8 @@ body:before {
 body.loaded:before {
 	opacity: 0;
 	pointer-events: none;
-}
+} */
 
 ::selection {
-	user-select: none;
+	user-select: none !important;
 }

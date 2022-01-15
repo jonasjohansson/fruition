@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
 console.log('Loaded from www.jonasjohansson.se')
 
 function update() {
-	document.body.classList.add('loaded')
+	// document.body.classList.add('loaded')
 	setTimeout(function () {
 		document.title = 'Nordic Lights'
 		// for (let elem of document.querySelectorAll('div')) {
