@@ -6,11 +6,3 @@
 	--bg: black;
 	--color: white;
 }
-
-::selection {
-	user-select: none;
-}
-
-div.notion-selectable.notion-collection_view-block > div {
-	box-shadow: none !important;
-}
