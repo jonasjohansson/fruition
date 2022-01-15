@@ -29,7 +29,7 @@ div.notion-selectable.notion-collection_view_page-block
 }
 
 div.notion-frame {
-	height: calc(100vh) !important;
+	/* height: calc(100vh) !important; */
 }
 
 ::-webkit-scrollbar,
@@ -112,7 +112,7 @@ div.notion-selectable.notion-collection_view_page-block
 	> div
 	> div.notion-selectable.notion-page-block.notion-collection-item
 	> a {
-	border-radius: 3px !important; /*Round Corners */
-	margin-bottom: 12px !important;
+	border-radius: 0 !important; /*3px Round Corners */
+	margin-bottom: 0 !important; /*12px*/
 	height: 95% !important; /*decreased height for gallery item*/
 }
