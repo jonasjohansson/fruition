@@ -5,7 +5,7 @@
 :root {
 	--default-bg: white;
 	--default-color: black;
-	--default-border: darkgray;
+	--default-border: DimGray;
 }
 
 /* fade in after window loaded */
