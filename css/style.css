@@ -29,15 +29,13 @@ div.notion-selectable.notion-collection_view_page-block
 	box-shadow: 6px 6px 0px 0.5px var(--color, --default-color) !important; /*Shadow */
 }
 
-::-webkit-scrollbar,
-div.notion-topbar,
-div.notion-topbar-mobile {
-	display: none !important;
-}
 div.notion-frame {
 	height: calc(100vh) !important;
 }
 
+::-webkit-scrollbar,
+div.notion-topbar,
+div.notion-topbar-mobile,
 div.notion-selectable.notion-collection_view-block
 	> div
 	> div.notion-selectable.notion-collection_view-block
