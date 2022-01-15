@@ -29,8 +29,8 @@ div.notion-selectable.notion-page-block.notion-collection-item > a {
 }
 
 div.notion-selectable.notion-page-block.notion-collection-item > a {
-	/* border: 3px solid var(--color, --default-color) !important; */
-	box-shadow: 0 0 0 1px var(--color, --default-color), 0 2px 4px var(--color, --default-color) !important;
+	/* border: 1px solid var(--border, --default-border) !important; */
+	box-shadow: 0 0 0 1px var(--border, --default-border) !important;
 }
 
 div.notion-frame {
