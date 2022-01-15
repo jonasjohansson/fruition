@@ -120,3 +120,8 @@ div.notion-selectable.notion-collection_view_page-block
 	margin-bottom: 0 !important; /*12px*/
 	height: 95% !important; /*decreased height for gallery item*/
 }
+
+/*Remove gradient above inline database*/
+.notion-selectable.notion-collection_view-block > div {
+	display: none !important;
+}
