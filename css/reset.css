@@ -10,14 +10,14 @@
 }
 
 .notion-app-inner {
-	color: var(--color, --default-color) !important;
+	color: var(--color, var(--default-color)) !important;
 }
 
 div.notion-selectable.notion-page-block {
 	color: unset !important;
 }
 div.notion-frame {
-	background-color: var(--bg, --default-bg) !important;
+	background-color: var(--bg, var(--default-bg)) !important;
 	height: 100vh !important;
 }
 
@@ -29,8 +29,8 @@ div.notion-selectable.notion-page-block.notion-collection-item > a {
 }
 
 div.notion-selectable.notion-page-block.notion-collection-item > a {
-	/* border: 1px solid var(--border, --default-border) !important; */
-	box-shadow: 0 0 0 1px var(--border, --default-border) !important;
+	/* border: 1px solid var(--border, var(--default-border)) !important; */
+	box-shadow: 0 0 0 1px var(--border, var(--default-border)) !important;
 }
 
 div.notion-frame {
@@ -129,12 +129,12 @@ div.notion-selectable.notion-collection_view_page-block
 
 /*Callout Shadow, Background, Border, Round Corners, Margin -  Desktop & Mobile*/
 div.notion-selectable.notion-callout-block {
-	background-color: var(--color, --default-color) !important;
-	border: 1px solid var(--bg, --default-bg) !important; /*border*/
-	box-shadow: 2px 2px 0px 1px var(--bg, --default-bg) !important;
+	background-color: var(--color, var(--default-color)) !important;
+	border: 1px solid var(--bg, var(--default-bg)) !important; /*border*/
+	box-shadow: 2px 2px 0px 1px var(--bg, var(--default-bg)) !important;
 	border-radius: 20px !important; /*Round Corners Callouts (both needed)*/
 	margin: 15px 0px 15px 0px !important; /*Margin Main Callouts*/
-	color: var(--bg, --default-bg) !important;
+	color: var(--bg, var(--default-bg)) !important;
 }
 
 /*Round corner Callout  Desktop & Mobile*/
