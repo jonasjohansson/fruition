@@ -4,42 +4,14 @@
 [class~='header'] {
 	font-family: serif !important;
 } */
+
 .notion-page-content {
 	/* font-size: 20px !important; */
 	padding-bottom: 10rem !important;
 }
 
-.notion-app-inner {
-	color: var(--color, var(--default-color)) !important;
-}
-.notion-focusable[role='button'] {
-	background-color: var(--highlight, var(--default-highlight)) !important;
-}
-div.notion-selectable notion-divider-block > div > div {
-	border-color: var(--border, var(--default-border)) !important;
-}
-div.notion-selectable.notion-page-block {
-	color: unset !important;
-}
 div.notion-frame {
-	background-color: var(--bg, var(--default-bg)) !important;
 	height: 100vh !important;
-}
-
-div.notion-scroller.vertical.horizontal > div,
-div.notion-selectable.notion-collection_view-block > div,
-div.notion-selectable.notion-page-block.notion-collection-item,
-div.notion-selectable.notion-page-block.notion-collection-item > a {
-	background-color: inherit !important;
-}
-
-div.notion-selectable.notion-page-block.notion-collection-item > a {
-	/* border: 1px solid var(--border, var(--default-border)) !important; */
-	box-shadow: 0 0 0 1px var(--border, var(--default-border)) !important;
-}
-
-div.notion-frame {
-	/* height: calc(100vh) !important; */
 }
 
 ::-webkit-scrollbar,
@@ -127,19 +99,10 @@ div.notion-selectable.notion-collection_view_page-block
 	height: 95% !important; /*decreased height for gallery item*/
 }
 
-/*Remove gradient above inline database*/
-.notion-selectable.notion-collection_view-block > div:first-child {
-	background: unset !important;
-}
-
 /*Callout Shadow, Background, Border, Round Corners, Margin -  Desktop & Mobile*/
 div.notion-selectable.notion-callout-block {
-	background-color: var(--color, var(--default-color)) !important;
-	border: 1px solid var(--bg, var(--default-bg)) !important; /*border*/
-	box-shadow: 2px 2px 0px 1px var(--bg, var(--default-bg)) !important;
 	border-radius: 20px !important; /*Round Corners Callouts (both needed)*/
 	margin: 15px 0px 15px 0px !important; /*Margin Main Callouts*/
-	color: var(--bg, var(--default-bg)) !important;
 }
 
 /*Round corner Callout  Desktop & Mobile*/
@@ -149,10 +112,17 @@ div.notion-selectable.notion-callout-block > div > div {
 
 ::selection {
 	user-select: none !important;
-	color: none;
-	background: none;
 }
 
 .notion-record-icon.notranslate.notion-focusable {
 	display: none !important;
+}
+
+.notion-image-block img {
+	border-radius: 1rem;
+	overflow: hidden;
+}
+
+video {
+	border-radius: 0.5rem;
 }

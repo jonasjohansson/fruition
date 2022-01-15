@@ -1,12 +1,25 @@
 @import url('style.css');
+/* @import url('color.css');
 
 :root {
 	--bg: #111;
 	--color: #eee;
 	--highlight: #444;
 	--border: #444;
+} */
+
+body {
+	-webkit-filter: invert(95%) !important;
+	filter: invert(95%) !important;
 }
 
-.notion-record-icon {
-	filter: invert(1);
+.notion-record-icon,
+.vp-preview-cover,
+img,
+figure,
+video,
+::selection,
+*[role='image'] {
+	-webkit-filter: invert(100%) !important;
+	filter: invert(100%) !important;
 }

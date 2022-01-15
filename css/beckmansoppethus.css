@@ -26,34 +26,3 @@ body.loaded:before {
 	opacity: 0;
 	pointer-events: none;
 } */
-
-.notion-page-content {
-	font-size: 18px !important;
-}
-
-.notion-image-block img {
-	border-radius: 1rem;
-	overflow: hidden;
-}
-
-video {
-	border-radius: 0.5rem;
-}
-
-/* body {
-	-webkit-filter: invert(95%) !important;
-	filter: invert(95%) !important;
-}
-div.notion-record-icon,
-div.vp-preview-cover,
-img,
-figure,
-video,
-::selection,
-*[role='image'] {
-	-webkit-filter: invert(100%) !important;
-	filter: invert(100%) !important;
-}
-::selection {
-	user-select: none; */
-}
