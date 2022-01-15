@@ -9,7 +9,7 @@
 } */
 
 .notion-app-inner {
-	color: var(--color, --default-color);
+	color: var(--color, --default-color) !important;
 }
 
 div.notion-frame,
