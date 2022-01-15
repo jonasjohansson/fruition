@@ -1,10 +1,8 @@
 @import url('style.css');
 
 :root {
-    --bg: #272626;
-    --color: #e0e0e0;
-    --highlight: #434343;
-    --border: transaparent;
+	--bg: black;
+	--color: white;
 }
 
 /* body:before {
@@ -28,7 +26,7 @@ body.loaded:before {
 } */
 
 .notion-page-content {
-	/* font-size: 18px !important; */
+	font-size: 18px !important;
 }
 
 .notion-image-block img {

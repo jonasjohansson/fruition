@@ -1,8 +1,10 @@
 @import url('style.css');
 
 :root {
-	--bg: #555555;
-	--color: white;
+	--bg: #272626;
+	--color: #e0e0e0;
+	--highlight: #434343;
+	--border: transaparent;
 }
 
 .notion-record-icon {

@@ -15,7 +15,9 @@
 .notion-focusable[role='button'] {
 	background-color: var(--highlight, var(--default-highlight)) !important;
 }
-
+div.notion-selectable notion-divider-block > div > div {
+	border-color: var(--border, var(--default-border)) !important;
+}
 div.notion-selectable.notion-page-block {
 	color: unset !important;
 }
