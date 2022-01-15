@@ -25,6 +25,10 @@ div.notion-selectable.notion-collection_view-block
 	display: none !important;
 }
 
+.notion-selectable.notion-collection_view-block > div:first-child:not(:last-child) {
+	display: none !important;
+}
+
 /*Remove Search Bar - Desktop - Database (Inline & Linked)*/
 div.notion-selectable.notion-collection_view-block
 	> div
