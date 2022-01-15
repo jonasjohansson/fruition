@@ -114,7 +114,7 @@ div.notion-selectable.notion-callout-block > div > div {
 	user-select: none !important;
 }
 
-.notion-record-icon.notranslate.notion-focusable {
+/* .notion-record-icon.notranslate.notion-focusable {
 	display: none !important;
 }
 
@@ -125,4 +125,4 @@ div.notion-selectable.notion-callout-block > div > div {
 
 video {
 	border-radius: 0.5rem;
-}
+} */
