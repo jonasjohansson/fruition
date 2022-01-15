@@ -29,7 +29,7 @@ div.notion-selectable.notion-collection_view_page-block
 	> div
 	> div.notion-selectable.notion-page-block.notion-collection-item
 	> a {
-	/* border: 3px solid var(--color, --default-color) !important; Border */
+	border: 3px solid var(--color, --default-color) !important;
 	/* box-shadow: 6px 6px 0px 0.5px var(--color, --default-color) !important; Shadow */
 }
 
@@ -125,4 +125,10 @@ div.notion-selectable.notion-collection_view_page-block
 /*Remove gradient above inline database*/
 .notion-selectable.notion-collection_view-block > div:first-child {
 	background: unset !important;
+}
+
+::selection {
+	user-select: none !important;
+	color: none;
+	background: none;
 }

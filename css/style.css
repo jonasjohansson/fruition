@@ -28,7 +28,3 @@ body.loaded:before {
 	opacity: 0;
 	pointer-events: none;
 } */
-
-::selection {
-	user-select: none !important;
-}
