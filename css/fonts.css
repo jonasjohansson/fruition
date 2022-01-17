@@ -2,8 +2,12 @@
 	font-family: unset !important;
 }
 
-.notion-header-block,
-.notion-sub_header-block,
-.notion-sub_sub_header-block {
+body {
+	font-family: var(--default-body, var(--body)) !important;
+}
+
+.notion-header-block > div > div,
+.notion-sub_header-block > div > div,
+.notion-sub_sub_header-block > div > div {
 	font-family: var(--default-heading, var(--heading)) !important;
 }
