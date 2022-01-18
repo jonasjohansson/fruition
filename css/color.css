@@ -1,5 +1,5 @@
 body.notion-body {
-	color: var(--bg, var(--default-bg)) !important;
+	color: var(--color, var(--default-color)) !important;
 	background-color: var(--bg, var(--default-bg)) !important;
 }
 
