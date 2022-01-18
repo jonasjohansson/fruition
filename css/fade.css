@@ -8,7 +8,7 @@ body:before {
 	bottom: 0;
 	background-color: var(--bg, var(--default-bg));
 	will-change: opacity;
-	transition: opacity 500ms ease-in-out;
+	transition: opacity 500ms ease-in-out 1s;
 	pointer-events: none;
 	z-index: 99;
 }
