@@ -6,8 +6,8 @@
 /* @import url('dark.css'); */
 
 :root {
-	--bg: #272626;
-	--color: #e0e0e0;
+	--bg: #e9e9e9;
+	--color: #262626;
 	--highlight: #434343;
 	--border: transparent;
 	--heading: 'Syne';
@@ -22,6 +22,6 @@
 	font-size: 20px !important;
 }
 
-.notion-record-icon {
+/* .notion-record-icon {
 	filter: invert(1);
-}
+} */
