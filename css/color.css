@@ -2,6 +2,14 @@ div.notion-frame {
 	background-color: var(--bg, var(--default-bg)) !important;
 }
 
+div.notion-app-inner {
+	color: inherit !important;
+}
+
+div.notion-scroller > div > div {
+	background: unset !important;
+}
+
 div.notion-selectable.notion-page-block.notion-collection-item > a {
 	/* border: 1px solid var(--border, var(--default-border)) !important; */
 	box-shadow: 0 0 0 1px var(--border, var(--default-border)) !important;
