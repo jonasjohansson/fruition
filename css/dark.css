@@ -1,0 +1,17 @@
+/* @media (prefers-color-scheme: light) { */
+body {
+	-webkit-filter: invert(95%) !important;
+	filter: invert(95%) !important;
+}
+.vp-preview-cover,
+figure,
+video,
+img,
+*[role='image'] {
+	-webkit-filter: invert(100%) !important;
+	filter: invert(100%) !important;
+}
+.notion-record-icon {
+	filter: unset !important;
+}
+/* } */

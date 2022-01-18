@@ -13,7 +13,6 @@
 		-webkit-filter: invert(95%) !important;
 		filter: invert(95%) !important;
 	}
-	.notion-record-icon,
 	.vp-preview-cover,
 	img,
 	figure,
@@ -22,5 +21,8 @@
 	*[role='image'] {
 		-webkit-filter: invert(100%) !important;
 		filter: invert(100%) !important;
+	}
+	.notion-record-icon {
+		filter: unset !important;
 	}
 }
