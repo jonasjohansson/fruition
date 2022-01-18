@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-	document.body.setAttribute('data-loaded')
+	document.body.setAttribute('data-loaded', true)
 })
 
 console.log('Loaded from www.jonasjohansson.se')
