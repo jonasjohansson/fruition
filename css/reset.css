@@ -130,7 +130,8 @@ div.notion-selectable.notion-callout-block > div > div {
 video {
 	border-radius: 0.5rem;
 } */
-@media screen and (max-width: 1200px) {
+
+/* @media screen and (max-width: 1200px) {
 	.notion-column_list-block > div > div {
 		width: 50% !important;
 	}
@@ -140,4 +141,4 @@ video {
 	.notion-column_list-block > div > div {
 		width: 100% !important;
 	}
-}
+} */
