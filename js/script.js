@@ -14,7 +14,7 @@ function update() {
 window.onload = update
 
 function remove(el) {
-	if (document.body.contains(el)) {
+	if (document.contains(el)) {
 		document.querySelector(el).remove()
 	}
 }
