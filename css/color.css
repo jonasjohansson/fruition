@@ -1,4 +1,4 @@
-div.notion-frame {
+body {
 	background-color: var(--bg, var(--default-bg)) !important;
 }
 
@@ -6,7 +6,8 @@ div.notion-app-inner {
 	color: inherit !important;
 }
 
-div.notion-scroller > div > div {
+div.notion-scroller > div > div,
+div.notion-frame {
 	background: unset !important;
 }
 
