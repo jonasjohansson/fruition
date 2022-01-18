@@ -1,14 +1,13 @@
-document.addEventListener('DOMContentLoaded', function () {
-	document.body.setAttribute('data-loaded', true)
-})
+document.addEventListener('DOMContentLoaded', function () {})
 
 console.log('Loaded from www.jonasjohansson.se')
 
 function update() {
+	document.body.setAttribute('data-loaded', true)
 	setTimeout(function () {
 		remove('.intercom-lightweight-app')
 		remove('#intercom-frame')
-	}, 1000)
+	}, 2000)
 }
 
 window.onload = update
