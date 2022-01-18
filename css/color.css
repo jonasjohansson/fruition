@@ -1,4 +1,5 @@
 body {
+	color: var(--bg, var(--default-bg)) !important;
 	background-color: var(--bg, var(--default-bg)) !important;
 }
 
