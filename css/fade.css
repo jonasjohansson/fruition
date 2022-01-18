@@ -12,6 +12,6 @@ body:before {
 	pointer-events: none;
 	z-index: 99;
 }
-body.notion-body.loaded:before {
+body.notion-body[data-loaded]:before {
 	opacity: 0;
 }
