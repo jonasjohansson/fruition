@@ -9,9 +9,9 @@ body:before {
 	background-color: var(--bg, var(--default-bg));
 	will-change: opacity;
 	transition: opacity 500ms ease-in-out 2s;
-	z-index: 2;
+	pointer-events: none;
+	z-index: 99;
 }
 body.notion-body:before {
 	opacity: 0;
-	pointer-events: none;
 }
