@@ -36,7 +36,7 @@ body:before {
 	bottom: 0;
 	background-color: var(--bg, var(--default-bg));
 	will-change: opacity;
-	transition: opacity 500ms ease-in-out, display 1s linear 500ms;
+	transition: opacity 500ms ease-in-out 2s, display 1s linear 2.5s;
 	z-index: 2;
 }
 body.notion-body:before {
