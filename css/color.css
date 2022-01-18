@@ -7,6 +7,7 @@ div.notion-app-inner {
 	color: inherit !important;
 }
 
+div.notion-app-inner > div,
 div.notion-scroller > div,
 div.notion-frame {
 	background: unset !important;
