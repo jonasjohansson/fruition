@@ -25,3 +25,21 @@
 /* .notion-record-icon {
 	filter: invert(1);
 } */
+
+body:before {
+	content: '';
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: var(--bg, var(--default-bg));
+	will-change: opacity;
+	transition: opacity 500ms ease-in-out, display 1s linear 500ms;
+}
+body.notion-body:before {
+	opacity: 0;
+	pointer-events: none;
+	display: none;
+}
