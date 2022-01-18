@@ -6,9 +6,15 @@ console.log('Loaded from www.jonasjohansson.se')
 
 function update() {
 	setTimeout(function () {
-		document.querySelector('.intercom-lightweight-app').remove()
-		document.querySelector('#intercom-frame').remove()
+		remove('.intercom-lightweight-app')
+		remove('#intercom-frame')
 	}, 1000)
 }
 
 window.onload = update
+
+function remove(el) {
+	if (document.body.contains(el)) {
+		document.querySelector(el).remove()
+	}
+}
