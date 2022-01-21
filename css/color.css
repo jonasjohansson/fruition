@@ -13,9 +13,9 @@ div.notion-frame {
 	background: unset !important;
 }
 
-div.notion-selectable.notion-divider-block:last-of-type > div > div {
+/* div.notion-selectable.notion-divider-block:last-of-type > div > div {
 	border-color: var(--highlight, var(--default-highlight)) !important;
-}
+} */
 
 div.notion-selectable.notion-page-block.notion-collection-item > a {
 	/* border: 1px solid var(--border, var(--default-border)) !important; */
