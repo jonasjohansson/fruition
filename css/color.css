@@ -13,6 +13,10 @@ div.notion-frame {
 	background: unset !important;
 }
 
+div.notion-selectable.notion-divider-block > div > div {
+	border-color: var(--highlight, var(--default-highlight)) !important;
+}
+
 div.notion-selectable.notion-page-block.notion-collection-item > a {
 	/* border: 1px solid var(--border, var(--default-border)) !important; */
 	box-shadow: 0 0 0 1px var(--border, var(--default-border)) !important;

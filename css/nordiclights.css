@@ -7,10 +7,10 @@
 /* @import url('dark.css'); */
 
 :root {
-	--bg: #2d2d2d;
-	--color: #262626;
+	--bg: #1b1b1b;
+	--color: #ffdddd;
 	--highlight: #343434;
-	--border: transparent;
+	--border: #5959599e;
 	--heading: 'Syne';
 	--body: 'Open Sans';
 }
