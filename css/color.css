@@ -3,6 +3,7 @@ body.notion-body {
 	background-color: var(--bg, var(--default-bg)) !important;
 }
 
+div.notion-overlay-container.notion-default-overlay-container *,
 div.notion-app-inner {
 	color: inherit !important;
 }
@@ -17,6 +18,7 @@ div.notion-frame {
 	border-color: var(--highlight, var(--default-highlight)) !important;
 } */
 
+.notion-peek-renderer > div:last-child,
 div.notion-selectable.notion-page-block.notion-collection-item > a {
 	/* border: 1px solid var(--border, var(--default-border)) !important; */
 	box-shadow: 0 0 0 1px var(--border, var(--default-border)) !important;
