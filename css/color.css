@@ -13,7 +13,7 @@ div.notion-frame {
 	background: unset !important;
 }
 
-div.notion-selectable.notion-divider-block > div > div {
+div.notion-selectable.notion-divider-block:last-of-type > div > div {
 	border-color: var(--highlight, var(--default-highlight)) !important;
 }
 
