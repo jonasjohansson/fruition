@@ -16,7 +16,7 @@
 }
 
 [data-block-id='de305c69-369d-42c6-9a9b-f0c9cb5f8d14'] {
-	display: none;
+	display: none !important;
 }
 
 .notion-page-content {
