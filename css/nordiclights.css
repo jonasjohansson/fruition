@@ -7,9 +7,9 @@
 /* @import url('dark.css'); */
 
 :root {
-	--bg: #e9e9e9;
+	--bg: #2d2d2d;
 	--color: #262626;
-	--highlight: #434343;
+	--highlight: #343434;
 	--border: transparent;
 	--heading: 'Syne';
 	--body: 'Open Sans';
