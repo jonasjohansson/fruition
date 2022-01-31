@@ -10,6 +10,7 @@ div.notion-app-inner {
 
 div.notion-app-inner > div,
 div.notion-scroller > div,
+div.notion-scroller > div > div,
 div.notion-frame {
 	background: unset !important;
 }
