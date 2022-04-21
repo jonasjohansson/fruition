@@ -10,9 +10,9 @@
 	padding-bottom: 10rem !important;
 }
 
-div.notion-frame {
+/* div.notion-frame {
 	height: 100vh !important;
-}
+} */
 
 ::-webkit-scrollbar,
 div.notion-topbar,
@@ -25,10 +25,10 @@ div.notion-selectable.notion-collection_view-block
 	display: none !important;
 }
 
-.notion-peek-renderer > div:last-child > div:first-child,
+/* .notion-peek-renderer > div:last-child > div:first-child,
 .notion-selectable.notion-collection_view-block > div:first-child:not(:last-child) {
 	display: none !important;
-}
+} */
 
 /*Remove Search Bar - Desktop - Database (Inline & Linked)*/
 div.notion-selectable.notion-collection_view-block
