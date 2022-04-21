@@ -86,15 +86,15 @@ div.notion-selectable.notion-collection_view-block
 }
 
 /*Remove Three-Dot menu - Mobile - Database (Inline & Linked)*/
-div.notion-selectable.notion-collection_view-block > div > div > div > div > svg.dots {
+/* div.notion-selectable.notion-collection_view-block > div > div > div > div > svg.dots {
 	display: none !important;
-}
+} */
 
 /* Removes Top Border - Database (Inline & Linked)*/
-div.notion-selectable.notion-collection_view-block > div > div {
+/* div.notion-selectable.notion-collection_view-block > div > div {
 	border-top: none !important;
-}
-div.notion-selectable.notion-collection_view_page-block
+} */
+/* div.notion-selectable.notion-collection_view_page-block
 	> div
 	> div
 	> div.notion-selectable.notion-page-block.notion-collection-item
@@ -102,7 +102,7 @@ div.notion-selectable.notion-collection_view_page-block
 	border-radius: 0 !important; /*3px Round Corners */
 	margin-bottom: 0 !important; /*12px*/
 	height: 95% !important; /*decreased height for gallery item*/
-}
+} */
 
 /*Callout Shadow, Background, Border, Round Corners, Margin -  Desktop & Mobile*/
 div.notion-selectable.notion-callout-block {
