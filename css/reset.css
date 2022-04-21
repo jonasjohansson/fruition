@@ -99,9 +99,9 @@ div.notion-selectable.notion-collection_view-block
 	> div
 	> div.notion-selectable.notion-page-block.notion-collection-item
 	> a {
-	border-radius: 0 !important; /*3px Round Corners */
-	margin-bottom: 0 !important; /*12px*/
-	height: 95% !important; /*decreased height for gallery item*/
+	border-radius: 0 !important; 
+	margin-bottom: 0 !important;
+	height: 95% !important;
 } */
 
 /*Callout Shadow, Background, Border, Round Corners, Margin -  Desktop & Mobile*/
