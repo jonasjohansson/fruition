@@ -10,9 +10,9 @@
 	padding-bottom: 10rem !important;
 }
 
-div.notion-frame {
+/* div.notion-frame {
 	height: 100vh !important;
-}
+} */
 
 ::-webkit-scrollbar,
 div.notion-topbar,
@@ -55,14 +55,14 @@ div.notion-selectable.notion-collection_view-block
 }
 
 /*Removes open as page - Desktop - Database (Inline & Linked)*/
-/* div.notion-selectable.notion-collection_view-block
+div.notion-selectable.notion-collection_view-block
 	> div
 	> div.notion-selectable.notion-collection_view-block
 	> div
 	> div
 	> a {
 	display: none !important;
-} */
+}
 
 /*Removes open as page - Mobile - Database (Inline & Linked)*/
 div.notion-selectable.notion-collection_view-block
@@ -76,33 +76,33 @@ div.notion-selectable.notion-collection_view-block
 }
 
 /*Remove Three-Dot menu - Desktop - Database (Inline & Linked)*/
-/* div.notion-selectable.notion-collection_view-block
+div.notion-selectable.notion-collection_view-block
 	> div
 	> div.notion-selectable.notion-collection_view-block
 	> div
 	> div
 	> div:nth-child(3) {
 	display: none !important;
-} */
+}
 
 /*Remove Three-Dot menu - Mobile - Database (Inline & Linked)*/
-/* div.notion-selectable.notion-collection_view-block > div > div > div > div > svg.dots {
+div.notion-selectable.notion-collection_view-block > div > div > div > div > svg.dots {
 	display: none !important;
-} */
+}
 
 /* Removes Top Border - Database (Inline & Linked)*/
-/* div.notion-selectable.notion-collection_view-block > div > div {
+div.notion-selectable.notion-collection_view-block > div > div {
 	border-top: none !important;
-} */
-/* div.notion-selectable.notion-collection_view_page-block
+}
+div.notion-selectable.notion-collection_view_page-block
 	> div
 	> div
 	> div.notion-selectable.notion-page-block.notion-collection-item
 	> a {
-	border-radius: 0 !important; 
-	margin-bottom: 0 !important;
-	height: 95% !important;
-} */
+	border-radius: 0 !important; /*3px Round Corners */
+	margin-bottom: 0 !important; /*12px*/
+	height: 95% !important; /*decreased height for gallery item*/
+}
 
 /*Callout Shadow, Background, Border, Round Corners, Margin -  Desktop & Mobile*/
 div.notion-selectable.notion-callout-block {
@@ -115,9 +115,9 @@ div.notion-selectable.notion-callout-block > div > div {
 	border-radius: 20px !important; /*Round Corners Callouts (both needed)*/
 }
 
-/* ::selection {
+::selection {
 	user-select: none !important;
-} */
+}
 
 /* .notion-record-icon.notranslate.notion-focusable {
 	display: none !important;
