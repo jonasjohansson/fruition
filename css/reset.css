@@ -115,9 +115,9 @@ div.notion-selectable.notion-callout-block > div > div {
 	border-radius: 20px !important; /*Round Corners Callouts (both needed)*/
 }
 
-::selection {
+/* ::selection {
 	user-select: none !important;
-}
+} */
 
 /* .notion-record-icon.notranslate.notion-focusable {
 	display: none !important;
@@ -143,3 +143,4 @@ video {
 		width: 100% !important;
 	}
 } */
+
