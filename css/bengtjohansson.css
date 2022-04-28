@@ -12,21 +12,3 @@
 	display: none !important;
 }
 
-@media (prefers-color-scheme: light) {
-	body {
-		-webkit-filter: invert(95%) !important;
-		filter: invert(95%) !important;
-	}
-	.vp-preview-cover,
-	img,
-	figure,
-	video,
-	::selection,
-	*[role='image'] {
-		-webkit-filter: invert(100%) !important;
-		filter: invert(100%) !important;
-	}
-	.notion-record-icon {
-		filter: unset !important;
-	}
-}
