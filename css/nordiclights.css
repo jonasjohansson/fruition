@@ -19,11 +19,6 @@
 	display: none !important;
 }
 
-div[style~='box-shadow: rgb(233, 233, 231)'] {
-	filter: invert(1);
-	display: none !important;
-}
-
 .notion-page-content {
 	font-size: 20px !important;
 }
