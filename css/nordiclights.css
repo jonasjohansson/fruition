@@ -19,8 +19,8 @@
 	display: none !important;
 }
 
-[data-block-id='7b6dd8fc-159f-4218-8c1f-590d97696a88'] [data-block-id='7b6dd8fc-159f-4218-8c1f-590d97696a88'] {
-	display: none;
+[style~='box-shadow: rgb(233, 233, 231)'] {
+	filter: invert(1);
 }
 
 .notion-page-content {
