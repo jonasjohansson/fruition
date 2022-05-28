@@ -85,6 +85,11 @@ div.notion-selectable.notion-collection_view-block
 	display: none !important;
 }
 
+/*Remove Bottom Border - Database*/
+div.notion-selectable.notion-collection_view-block > div > .notion-selectable.notion-collection_view-block {
+	display: none;
+}
+
 /*Remove Three-Dot menu - Mobile - Database (Inline & Linked)*/
 div.notion-selectable.notion-collection_view-block > div > div > div > div > svg.dots {
 	display: none !important;
