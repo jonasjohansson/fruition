@@ -19,8 +19,9 @@
 	display: none !important;
 }
 
-[style~='box-shadow: rgb(233, 233, 231)'] {
+div[style~='box-shadow: rgb(233, 233, 231)'] {
 	filter: invert(1);
+	display: none !important;
 }
 
 .notion-page-content {
