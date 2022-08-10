@@ -7,9 +7,7 @@ body,
 	font-family: var(--body, var(--default-body)) !important;
 }
 
-.notion-header-block > div > div,
-.notion-sub_header-block > div > div,
-.notion-sub_sub_header-block > div > div {
+*[placeholder^='Heading'] {
 	font-family: var(--heading, var(--default-heading)) !important;
 }
 
