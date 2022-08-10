@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Syne:wght@400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Syne:wght@400;500;600;700&display=swap'); */
 
 @import url('style.css');
 @import url('fonts.css');
@@ -12,18 +12,12 @@
 	font-display: swap;
 }
 
-@font-face {
-	font-family: 'Maxi Round Regular';
-	src: url('fonts/ABCMaxiRound-Regular-Trial.woff2') format('woff2');
-	font-display: swap;
-}
-
 :root {
 	--bg: #1b1b1b;
 	--color: #e6e6e6;
 	--highlight: #343434;
 	--border: #5959599e;
-	--heading: 'Maxi Round Regular';
+	--heading: 'Maxi Round Light';
 	--body: 'Maxi Round Light';
 }
 
