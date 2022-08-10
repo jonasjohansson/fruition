@@ -2,7 +2,8 @@
 	font-family: unset !important;
 }
 
-body {
+body,
+#notion-app {
 	font-family: var(--body, var(--default-body)) !important;
 }
 
@@ -11,3 +12,4 @@ body {
 .notion-sub_sub_header-block > div > div {
 	font-family: var(--heading, var(--default-heading)) !important;
 }
+
