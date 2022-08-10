@@ -9,16 +9,12 @@
 @font-face {
 	font-family: 'Maxi Round Light';
 	src: url('fonts/ABCMaxiRound-Light-Trial.woff2') format('woff2');
-	font-weight: light;
-	font-style: normal;
 	font-display: swap;
 }
 
 @font-face {
 	font-family: 'Maxi Round Regular';
 	src: url('fonts/ABCMaxiRound-Regular-Trial.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
 	font-display: swap;
 }
 
