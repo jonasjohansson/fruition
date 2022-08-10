@@ -9,7 +9,7 @@
 }
 @import url('style.css');
 @import url('fonts.css');
-@import url('color.css');
+/* @import url('color.css'); */
 @import url('fade.css');
 /* @import url('dark.css'); */
 
@@ -30,7 +30,7 @@
 	font-size: 20px !important;
 }
 
-.notion-record-icon {
+/* .notion-record-icon {
 	filter: invert(1);
-}
+} */
 
