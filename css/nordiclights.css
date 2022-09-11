@@ -2,9 +2,9 @@
 
 @import url('style.css');
 @import url('fonts.css');
-/* @import url('color.css'); */
+@import url('color.css');
 @import url('fade.css');
-/* @import url('dark.css'); */
+@import url('dark.css');
 
 @font-face {
 	font-family: 'Teodor';
@@ -33,7 +33,7 @@
 	filter: invert(1);
 }
 
-.notion-collection_view-block {
+/* .notion-collection_view-block {
 	filter: saturate(0) contrast(1) brightness(1);
-}
+} */
 
