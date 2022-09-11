@@ -7,7 +7,7 @@
 /* @import url('dark.css'); */
 
 @font-face {
-	font-family: 'Teodor';
+	font-family: 'Avantt';
 	src: url('fonts/AvanttTRIAL-Regular.woff2') format('woff2');
 	font-display: swap;
 }
@@ -17,8 +17,8 @@
 	--color: #e6e6e6;
 	--highlight: #343434;
 	--border: #5959599e;
-	--heading: 'Teodor';
-	--body: 'Teodor';
+	--heading: 'Avantt';
+	--body: 'Avantt';
 }
 
 [data-block-id='de305c69-369d-42c6-9a9b-f0c9cb5f8d14'] {
