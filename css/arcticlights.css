@@ -20,9 +20,9 @@
 	--body: 'Avantt';
 }
 
-[data-block-id='df3432e2-a99d-4298-955e-6490a38d1a34'] {
+/* [data-block-id='df3432e2-a99d-4298-955e-6490a38d1a34'] {
 	display: none !important;
-}
+} */
 
 .notion-page-content {
 	font-size: 20px !important;
@@ -30,9 +30,5 @@
 
 /* .notion-record-icon {
 	filter: invert(1);
-} */
-
-/* .notion-collection_view-block {
-	filter: saturate(0) contrast(1) brightness(1);
 } */
 
