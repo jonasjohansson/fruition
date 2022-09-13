@@ -1,26 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
-
 @import url('style.css');
 @import url('fonts.css');
 /* @import url('color.css'); */
 @import url('fade.css');
-
-@font-face {
-	font-family: 'Avantt';
-	src: url('fonts/AvanttTRIAL-Regular.woff2') format('woff2');
-	font-display: swap;
-}
 
 :root {
 	--bg: #1b1b1b;
 	--color: #e6e6e6;
 	--highlight: #343434;
 	--border: #5959599e;
-	--heading: 'Avantt';
-	--body: 'Avantt';
+	--heading: '';
+	--body: '';
 }
 
-[data-block-id='c54f4792-791c-49ae-8fe0-240d46808a30'] {
+[data-block-id='b3d9c002-9360-4428-881e-86de5c022595'] {
 	display: none !important;
 }
 
@@ -31,8 +23,4 @@
 .notion-record-icon {
 	filter: invert(1);
 }
-
-/* .notion-collection_view-block {
-	filter: saturate(0) contrast(1) brightness(1);
-} */
 
