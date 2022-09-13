@@ -11,25 +11,3 @@
 	--default-heading: '';
 }
 
-/* fade in after window loaded */
-
-/* body:before {
-	content: '';
-	display: block;
-	background-color: var(--bg, --default-bg);
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	opacity: 1;
-	will-change: opacity;
-	transition: opacity 500ms ease-in-out 1s;
-	z-index: 999;
-}
-
-body.loaded:before {
-	opacity: 0;
-	pointer-events: none;
-} */
-

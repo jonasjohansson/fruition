@@ -3,18 +3,18 @@
 /* @import url('color.css'); */
 @import url('fade.css');
 
-:root {
+/* :root {
 	--bg: #1b1b1b;
 	--color: #e6e6e6;
 	--highlight: #343434;
 	--border: #5959599e;
 	--heading: '';
 	--body: '';
-}
+} */
 
-[data-block-id='b3d9c002-9360-4428-881e-86de5c022595'] {
+/* [data-block-id='b3d9c002-9360-4428-881e-86de5c022595'] {
 	display: none !important;
-}
+} */
 
 .notion-page-content {
 	font-size: 20px !important;
