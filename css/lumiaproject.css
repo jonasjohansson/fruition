@@ -1,8 +1,5 @@
 @import url('style.css');
 @import url('fonts.css');
-/* @import url('color.css'); */
-/* @import url('fade.css'); */
-/* @import url('dark.css'); */
 
 @font-face {
 	font-family: 'Maxi Round Light';
@@ -28,12 +25,3 @@
 [data-block-id='15f99a9b-df7b-43ff-9ff5-aff61b826d39'] {
 	display: none !important;
 }
-
-.notion-page-content {
-	font-size: 20px !important;
-}
-
-/* .notion-record-icon {
-	filter: invert(1);
-} */
-

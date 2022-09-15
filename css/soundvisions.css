@@ -1,13 +1,12 @@
 @import url('style.css');
-@import url('fonts.css');
+/* @import url('fonts.css'); */
 /* @import url('color.css'); */
-/* @import url('fade.css'); */
 
 :root {
-	--bg: #1b1b1b;
-	--color: #e6e6e6;
-	--highlight: #343434;
-	--border: #5959599e;
+	--bg: '';
+	--color: '';
+	--highlight: '';
+	--border: '';
 	--heading: '';
 	--body: '';
 }
@@ -15,12 +14,3 @@
 [data-block-id='c54f4792-791c-49ae-8fe0-240d46808a30'] {
 	display: none !important;
 }
-
-.notion-page-content {
-	font-size: 20px !important;
-}
-
-/* .notion-record-icon {
-	filter: invert(1);
-}*/
-

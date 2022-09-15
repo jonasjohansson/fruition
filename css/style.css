@@ -11,3 +11,11 @@
 	--default-heading: '';
 }
 
+.notion-page-content {
+	font-size: 20px !important;
+}
+
+/* .notion-record-icon {
+	filter: invert(1);
+} */
+
