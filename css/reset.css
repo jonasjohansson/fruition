@@ -149,3 +149,17 @@ video {
 	}
 } */
 
+html * {
+	-webkit-tap-highlight-color: transparent !important;
+}
+
+html div:not([contenteditable]) {
+	-webkit-user-select: none !important;
+}
+
+.notion-page-content > div > div {
+	display: unset !important;
+}
+.notion-page-content > div > div > div {
+	width: 100% !important;
+}
