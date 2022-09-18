@@ -149,10 +149,6 @@ video {
 	}
 } */
 
-html * {
-	-webkit-tap-highlight-color: transparent !important;
-}
-
 html div:not([contenteditable]) {
 	-webkit-user-select: none !important;
 }
