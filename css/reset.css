@@ -153,12 +153,12 @@ html div:not([contenteditable]) {
 	-webkit-user-select: none !important;
 }
 
-@media only screen and (max-width: 896px) {
+/* @media only screen and (max-width: 896px) {
 	.notion-page-content > div > div {
 		display: unset !important;
 	}
 	.notion-page-content > div > div > div {
 		width: 100% !important;
 	}
-}
+} */
 
