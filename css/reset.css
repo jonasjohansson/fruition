@@ -160,6 +160,10 @@ html div:not([contenteditable]) {
 .notion-page-content > div > div {
 	display: unset !important;
 }
-.notion-page-content > div > div > div {
-	width: 100% !important;
+
+@media only screen and (max-device-width: 896px) {
+	.notion-page-content > div > div > div {
+		width: 100% !important;
+	}
 }
+
