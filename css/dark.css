@@ -10,6 +10,7 @@ body {
 
 .vp-preview-cover,
 figure,
+iframe,
 video,
 img,
 *[role='image'] {
@@ -20,3 +21,4 @@ img,
 	filter: unset !important;
 } */
 /* } */
+
