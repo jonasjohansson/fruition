@@ -1,3 +1,10 @@
+:root {
+	--default-bg: white;
+	--default-color: black;
+	--default-highlight: gray;
+	--default-border: gray;
+}
+
 body.notion-body {
 	color: var(--color, var(--default-color)) !important;
 	background-color: var(--bg, var(--default-bg)) !important;
@@ -38,3 +45,4 @@ div.notion-selectable.notion-callout-block {
 	box-shadow: 2px 2px 0px 1px var(--bg, var(--default-bg)) !important;
 	color: var(--bg, var(--default-bg)) !important;
 }
+
