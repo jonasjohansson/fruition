@@ -8,7 +8,7 @@ div.notion-app-inner {
 	color: inherit !important;
 }
 
-div.notion-app-inner > div,
+div.notion-app-inner,
 div.notion-app-inner > div > div,
 div.notion-scroller > div,
 div.notion-scroller > div > div,
