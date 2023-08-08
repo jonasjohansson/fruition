@@ -1,10 +1,10 @@
 @import url('style.css');
 /* @import url('fonts.css'); */
 @import url('color.css');
-@import url('dark.css');
+/* @import url('dark.css'); */
 
 :root {
-	--bg: '';
+	--bg: 'white';
 	--color: '';
 	--highlight: '';
 	--border: '';
